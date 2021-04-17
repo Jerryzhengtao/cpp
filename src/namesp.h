@@ -12,5 +12,8 @@ namespace sale{
         double max;
         double min;
     };
+    void setSales(Sales &s, const double arr[], int n);
+    void setSales(Sales &s);
+    void showSales(const Sales &s);
 }
 #endif //C_PRIMERPLUS_NAMESP_H

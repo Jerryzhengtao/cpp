@@ -4,6 +4,7 @@
 #include<iostream>
 #include "namesp.h"
 using namespace std;
+using namespace sale;
 const int BUFF_SIZE = 100;
 char buffer[BUFF_SIZE];
 struct chaff {
@@ -26,5 +27,12 @@ int main() {
 //        cout<<" "<<buff[i].slag<<endl;
 //    }
 
+    Sales sale1 = {{1,2,3,4}};
+    double arr[] = {3,4,5,6};
+    showSales(sale1);
+    setSales(sale1);
+    showSales(sale1);
+    setSales(sale1,arr,3);
+    showSales(sale1);
 }
 
