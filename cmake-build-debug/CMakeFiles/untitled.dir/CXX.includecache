@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/BadDude.cpp
+BadDude.h
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/BadDude.h
+
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/BadDude.h
+Gunslinger.h
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/Gunslinger.h
+PokerPlayer.h
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/PokerPlayer.h
+
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/Gunslinger.h
+Person.h
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/Person.h
+
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/Person.h
+iostream
+-
+
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/PokerPlayer.h
+Person.h
+/Users/zhengtao/CLionProjects/C++PrimerPlus/src/Person.h
+
